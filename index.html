@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Intro Screen -->
+    <div class="intro-screen" id="introScreen">
+        <!-- Live Background Effects -->
+        <div class="background-effects">
+            <div class="matrix-rain" id="matrixRain"></div>
+        </div>
+        
+        <div class="intro-content">
+            <div class="falling-text" id="fallingText">
+                <span class="letter">W</span>
+                <span class="letter">e</span>
+                <span class="letter">l</span>
+                <span class="letter">c</span>
+                <span class="letter">o</span>
+                <span class="letter">m</span>
+                <span class="letter">e</span>
+                <span class="letter space"> </span>
+                <span class="letter">t</span>
+                <span class="letter">o</span>
+                <span class="letter space"> </span>
+                <span class="letter">D</span>
+                <span class="letter">a</span>
+                <span class="letter">v</span>
+                <span class="letter">i</span>
+                <span class="letter">d</span>
+                <span class="letter space"> </span>
+                <span class="letter">D</span>
+                <span class="letter">e</span>
+                <span class="letter">m</span>
+                <span class="letter">o</span>
+                <span class="letter">s</span>
+                <span class="letter space"> </span>
+                <span class="letter">P</span>
+                <span class="letter">o</span>
+                <span class="letter">r</span>
+                <span class="letter">t</span>
+                <span class="letter">f</span>
+                <span class="letter">o</span>
+                <span class="letter">l</span>
+                <span class="letter">i</span>
+                <span class="letter">o</span>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="main-content" id="mainContent">
+    
+    <button class="nav-toggle" id="navToggle">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav-overlay" id="navOverlay">
+        <ul class="nav-menu"> ]
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#tech" class="nav-link">Tech Stack</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    
+    
+    <section id="home" class="hero">
+    <div class="star-field" id="starField"></div>
+        <div class="tech-cloud">
+            <span class="tech-item" style="top: 10%; right: 20%;">HTML</span>
+            <span class="tech-item" style="top: 25%; right: 35%;">CSS</span>
+            <span class="tech-item large" style="top: 15%; right: 45%;">JavaScript</span>
+            <span class="tech-item" style="top: 35%; right: 25%;">React</span>
+            <span class="tech-item" style="top: 45%; right: 40%;">Node.js</span>
+            <span class="tech-item" style="top: 55%; right: 20%;">TypeScript</span>
+            <span class="tech-item" style="top: 30%; right: 55%;">GitHub</span>
+            <span class="tech-item" style="top: 60%; right: 45%;">WordPress</span>
+            <span class="tech-item" style="top: 20%; right: 60%;">Bolt.new</span>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Hey,</span>
+                    <span class="title-line pink">I'm David</span>
+                </h1>
+                <p class="hero-subtitle">Software Engineering Student</p>
+                <p class="hero-description">19 years old • Passionate about coding • Building the future</p>
+                
+                <button class="download-btn" id="downloadBtn">
+                    <span class="download-icon">⬇</span>
+                    Download CV
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2 class="about-title">
+                    I'm a 19-year-old software engineering student with an unstoppable passion for coding and technology.
+                </h2>
+            </div>
+            
+            <div class="about-description">
+                <p>
+                    Currently pursuing my degree in Software Engineering while 
+                    working full-time, I've learned to balance academics, 
+                    professional responsibilities, and personal growth. 
+                    Every day brings new challenges that fuel my determination.
+                </p>
+                
+                <p>
+                    Despite my busy schedule, I make time for personal projects 
+                    and continuously expanding my skill set. I believe that 
+                    passion and dedication can overcome any obstacle, and 
+                    I'm committed to becoming an exceptional developer.
+                </p>
+            </div>
+        </div>
+        
+        <div class="clouds">
+            <div class="cloud cloud1"></div>
+            <div class="cloud cloud2"></div>
+            <div class="cloud cloud3"></div>
+            <div class="cloud cloud4"></div>
+            <div class="cloud cloud5"></div>
+            <div class="cloud cloud6"></div>
+            <div class="cloud cloud7"></div>
+            <div class="cloud cloud8"></div>
+            <div class="cloud cloud9"></div>
+            <div class="cloud cloud10"></div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech" class="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Tech-Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon html">HTML5</div>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon css">CSS3</div>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon js">JS</div>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon ts">TS</div>
+                    <h3>TypeScript</h3>
+                </div>
+            </div>
+            
+            <div class="tech-grid-bottom">
+                <div class="tech-card">
+                    <div class="tech-icon react">⚛️</div>
+                    <h3>React</h3>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon node">🟢</div>
+                    <h3>Node.js</h3>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon git">🌐</div>
+                    <h3>Git</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-description">
+                I'm always excited to connect with fellow developers, discuss new opportunities, 
+                and collaborate on interesting projects. Let's build something amazing together!
+            </p>
+            
+            <div class="contact-buttons">
+                <button class="btn btn-primary" id="contactBtn">Get In Touch</button>
+                <a href="#projects" class="btn btn-secondary">View My Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Modal -->
+    <div class="modal-overlay" id="contactModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <h3 class="modal-title">Contact Information</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>📧 Email:</strong>
+                    <a href="mailto:david.frontedsimplified@gmail.com">david.frontedsimplified@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <strong>📱 Phone:</strong>
+                    <a href="tel:9786540472">(978) 654-0472</a>
+                </div>
+                <div class="contact-item">
+                    <strong>🕐 Available:</strong>
+                    <span>7:00 PM - 12:00 AM</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
