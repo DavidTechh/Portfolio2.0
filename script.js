@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const downloadBtn = document.getElementById('downloadBtn');
   if (downloadBtn) {
     downloadBtn.addEventListener('click', () => {
-      window.open('/David_Demos_AI_Resume_v3.pdf', '_blank');
+      window.open('assets/David_Demos_Resume_v2.pdf', '_blank');
     });
   }
 
